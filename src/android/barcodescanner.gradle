@@ -1,4 +1,5 @@
 repositories{
+	maven { url 'https://dl.bintray.com/android/android-tools' }
     jcenter()
     flatDir{
         dirs 'libs'
@@ -8,7 +9,6 @@ repositories{
 dependencies {
     compile(name:'barcodescanner-release-2.1.5', ext:'aar')
 }
-
 android {
     packagingOptions {
         exclude 'META-INF/NOTICE'
